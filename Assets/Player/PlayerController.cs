@@ -77,4 +77,14 @@ public class PlayerController : MonoBehaviour
     {
         isDodging = false;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Birb")
+        {
+            Debug.Log("Pecked to death");
+            //TODO Play player death FX
+            Destroy(gameObject);
+        }
+    }
 }

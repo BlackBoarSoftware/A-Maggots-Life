@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float dodgeMagnitude = 8f;
+    [SerializeField] float dodgeBoostLength = .1f;
     [SerializeField] float jumpForce = 5f;
     [SerializeField] Collider2D feet;
 
@@ -15,6 +17,7 @@ public class PlayerController : MonoBehaviour
     Vector2 moveDirection;
     Vector2 rawInput;
     bool isJumping;
+    bool isDodging = false;
     Rigidbody2D rb;
 
 
@@ -28,7 +31,15 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         //Move the player
-        rb.velocity = new Vector2(rawInput.x * moveSpeed, rb.velocity.y);
+        if(isDodging)
+        {
+            rb.velocity = new Vector2(rawInput.x * (moveSpeed + dodgeMagnitude), rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(rawInput.x * moveSpeed, rb.velocity.y);
+        }
+        
 
         //Make the player jump
         if (isJumping)
@@ -52,5 +63,18 @@ public class PlayerController : MonoBehaviour
         if (!feet.IsTouchingLayers(LayerMask.GetMask(platformLayer))) { return; }
 
         isJumping = true;
+    }
+
+    void OnDodge(InputValue value)
+    {
+        Debug.Log("dodge");
+        if(!isActive) {return;}
+        isDodging = true;
+        Invoke("EndDodge", dodgeBoostLength);
+    }
+
+    void EndDodge()
+    {
+        isDodging = false;
     }
 }

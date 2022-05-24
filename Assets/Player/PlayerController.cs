@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpForce = 5f;
     [SerializeField] Collider2D feet;
     [SerializeField] Animator animator;
+    AudioSource audioSource;
+    bool isDead = false; //for now only used to disable movement
 
     public bool isActive = true;
 
@@ -28,12 +30,18 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
     {
+        if(isDead) 
+        {
+            rb.velocity = new Vector2(0,0);
+            return;
+        }
         //Move the player
-        if (isDodging)
+        else if (isDodging)
         {
             rb.velocity = new Vector2(rawInput.x * (moveSpeed + dodgeMagnitude), rb.velocity.y);
         }
@@ -102,13 +110,21 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isDodging", false);
     }
 
+    //Death
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Birb")
         {
+            isDead = true;
+            audioSource.Play();
             Debug.Log("You got vored");
-            //TODO Play player death FX
-            Destroy(gameObject);
+            animator.SetBool("isDead", true);
+            Invoke("OnDeathAnimEnd", 2f);
         }
     }
+
+    void OnDeathAnimEnd()
+            {
+                Destroy(gameObject);
+            }
 }

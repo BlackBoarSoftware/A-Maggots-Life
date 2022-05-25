@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Collider2D feet;
     [SerializeField] Animator animator;
     AudioSource audioSource;
+    Vector2 ResetPosition;
     bool isDead = false; //for now only used to disable movement
 
     public bool isActive = true;
@@ -37,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         if(isDead) 
         {
-            rb.velocity = new Vector2(0,0);
+            //rb.velocity = new Vector2(0,0);
             return;
         }
         //Move the player
@@ -82,32 +84,49 @@ public class PlayerController : MonoBehaviour
     //Used by the input system 
     void OnMove(InputValue value)
     {
-        if (!isActive) { return; }
-        rawInput = value.Get<Vector2>();
+        if(!isDead)
+        {
+            if (!isActive) { return; }
+            rawInput = value.Get<Vector2>();
+        }
+
     }
 
     //Used by the input system
     void OnJump(InputValue value)
     {
-        if (!isActive) { return; }
-        if (!feet.IsTouchingLayers(LayerMask.GetMask(platformLayer))) { return; }
+        if(!isDead)
+        {
+            if (!isActive) { return; }
+            if (!feet.IsTouchingLayers(LayerMask.GetMask(platformLayer))) { return; }
 
-        isJumping = true;
+            isJumping = true;
+        }
     }
 
     void OnDodge(InputValue value)
     {
-        Debug.Log("dodge");
-        if (!isActive) { return; }
-        isDodging = true;
-        animator.SetBool("isDodging", true);
-        Invoke("EndDodge", dodgeBoostLength);
+        if(!isDead)
+        {
+            Debug.Log("dodge");
+            if (!isActive) { return; }
+            isDodging = true;
+            animator.SetBool("isDodging", true);
+            Invoke("EndDodge", dodgeBoostLength);
+        }
     }
 
     void EndDodge()
     {
         isDodging = false;
         animator.SetBool("isDodging", false);
+    }
+    void OnReset()
+    {
+        Debug.Log("reset");
+        ResetPosition = new Vector2(transform.position.x, transform.position.y + 10);
+        transform.Translate(0, 3, 0, Space.World);
+        transform.rotation = Quaternion.identity;
     }
 
     //Death
@@ -124,7 +143,23 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnDeathAnimEnd()
-            {
-                Destroy(gameObject);
-            }
+    {
+        //Destroy(gameObject);
+        Invoke("ReloadScene", 3);
+    }
+
+    public void WinSequence()
+    {
+        isDead = true; //lol
+        Debug.Log("Won");
+        Invoke("WinScene", 8);
+    }
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(0);//for the sake of time these values will stay hardcoded
+    }
+    void WinScene()
+    {
+        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
+    }
 }

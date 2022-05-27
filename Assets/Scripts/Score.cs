@@ -7,11 +7,12 @@ using System;
 public class Score : MonoBehaviour
 {
     [SerializeField] GameObject player;
+    [SerializeField] int winScore = 5;
     PlayerController playerController;
     Rigidbody2D rb; 
     TMP_Text tMPTextField;
     int score;
-    int winScore = 3;
+    
     bool isMetamorphosisAnimPlaying = false;
     private void Start() 
     {
@@ -45,7 +46,7 @@ public class Score : MonoBehaviour
 
     private void UpdateScore(int newScore)
     {
-        tMPTextField.text = newScore.ToString();
+        tMPTextField.text = $"Snacks Eaten: {newScore.ToString()}/5";
     }
 
     void WinGame()

@@ -166,7 +166,7 @@ public class PlayerController : MonoBehaviour
     void OnDeathAnimEnd()
     {
         //Destroy(gameObject);
-        Invoke("ReloadScene", 3);
+        Invoke("ReloadScene", 2f);
     }
 
     public void WinSequence()
@@ -177,10 +177,10 @@ public class PlayerController : MonoBehaviour
     }
     void ReloadScene()
     {
-        SceneManager.LoadScene(0);//for the sake of time these values will stay hardcoded
+        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
     }
     void WinScene()
     {
-        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
+        SceneManager.LoadScene(2);//for the sake of time these values will stay hardcoded
     }
 }

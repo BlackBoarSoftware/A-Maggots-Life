@@ -4,5 +4,6 @@
 <p>The basic premise of this game is that you play as a particularly agile fly maggot being born in a carcass.
   In order to pupate, you must quickly use your affinity for launching yourself in the air, to find food while 
   avoiding hazards such as predatory birds and pitfalls.</p>
+  ![Maggot](https://github.com/BlackBoarSoftware/A-Maggots-Life/blob/Flocks/Win/Environment/MaggotGif.gif)
   <hr>
 

@@ -15,6 +15,6 @@ public class PulsingPPFX : MonoBehaviour
     }
     private void Update() 
     {
-        chromaticAberration.intensity.value = Mathf.Sin(Time.realtimeSinceStartup*2);    
+        chromaticAberration.intensity.value = Mathf.Sin(Time.realtimeSinceStartup*4);    
     }
 }

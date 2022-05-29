@@ -155,18 +155,19 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
+        gameObject.transform.rotation = Quaternion.identity;//ensure the animation plays right side up
         crawlAudio.Stop();
         isDead = true;
         deathAudio.Play();
         Debug.Log("You got vored");
         animator.SetBool("isDead", true);
-        Invoke("OnDeathAnimEnd", 2f);
+        Invoke("OnDeathAnimEnd", 1f);
     }
 
     void OnDeathAnimEnd()
     {
         //Destroy(gameObject);
-        Invoke("ReloadScene", 2f);
+        Invoke("ReloadScene", 1f);
     }
 
     public void WinSequence()

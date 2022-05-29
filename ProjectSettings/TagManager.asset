@@ -14,12 +14,12 @@ TagManager:
   - Water
   - UI
   - Platform
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PPFX
+  - ForegroundF
+  - ForegroundB
+  - BackgroundF
+  - BackgroundB
+  - Hills
   - 
   - 
   - 
@@ -43,11 +43,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Hills
+    uniqueID: 2916816835
+    locked: 0
   - name: BackgroundBack
     uniqueID: 3194278721
     locked: 0
   - name: BackgroundFront
     uniqueID: 4098070951
+    locked: 0
+  - name: Terrain
+    uniqueID: 4142388769
     locked: 0
   - name: PlayerLayer
     uniqueID: 1699449505

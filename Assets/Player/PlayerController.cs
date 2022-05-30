@@ -174,7 +174,8 @@ public class PlayerController : MonoBehaviour
     {
         isDead = true; //lol
         Debug.Log("Won");
-        Invoke("WinScene", 8);
+        animator.SetTrigger("Win");
+        Invoke("WinScene", 9.8f);
     }
     void ReloadScene()
     {

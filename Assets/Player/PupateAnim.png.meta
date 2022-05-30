@@ -1,0 +1,2774 @@
+fileFormatVersion: 2
+guid: c099c5c8b88b18c48bf91bb16ff5208c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PupateAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cafc211fa660a4691a42b73ec4aa5f
+      internalID: 1953001371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1c7f97543c7bd478e97a19c2d7ec1a
+      internalID: -1689654454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_2
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038e4611cefbf424ebe3628e5ca2124f
+      internalID: 167877103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_3
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a858e54151d0cc4fbf1664a0fe0c526
+      internalID: 336645897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_4
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fadc0bdc915d514fbc428c267db5447
+      internalID: -1817673756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_5
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7f6ce101c7a114fb45ba3e974ae872
+      internalID: 858483391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_6
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed2f5c097650754d87b433d5a1445b4
+      internalID: -422977165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_7
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b5638ed0e98e741be988275c34c178
+      internalID: 214878139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_8
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e06639ae513e8e42a76096a969b4a99
+      internalID: -529935515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_9
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde4f98839d85c24980ed1418b936e99
+      internalID: 1501820713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_10
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 5240
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec54a565f2f59d0438d7488dc374027e
+      internalID: 1478453490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475b6d2a2d754c24187f4d74809500b4
+      internalID: 66945979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8ebf961a6b2f94aae2bab857feccde
+      internalID: -1339431825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_13
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f35dfec27de31489352300d627942e
+      internalID: -962330450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_14
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7160e0dd1d746e4dbab82b9adeae113
+      internalID: 2100144156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_15
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9324161e5bf045bb405eefe890fba
+      internalID: 683296690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_16
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eb6ffb283c6fc48b7019a410e54a7c
+      internalID: -580641703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_17
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b00af709c93774f84c89d46dda4c82
+      internalID: 2026215178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_18
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05f6bc28b9ab6e4db2ba41202a5e091
+      internalID: 1582280896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_19
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daf143875b13a34492be046e4d400b3
+      internalID: 590607629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_20
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25a532975b5b447b7ba26e33f36f3d
+      internalID: 2018895443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_21
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4716
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b14fd5a93597840bef6eb2ce312182
+      internalID: -1369614646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a23353259cb614bb8e3f384fdbb42e
+      internalID: 1486189190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_23
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf17ff638780f6c498c47e1e53c2faf3
+      internalID: 1989640828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_24
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd19fdbafcc89a4cb5c0683af206145
+      internalID: -436228233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_25
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe0267b1ba2f3f4982aee03c893ce98
+      internalID: 575966071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_26
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e76eb0442c65d4ca69214c0ca9ff1e
+      internalID: -1805840023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_27
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea695c36f630ff14b90947586ebac796
+      internalID: 808594048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_28
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699e195736862c14abdef2d79d6ae4a7
+      internalID: -1859968290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_29
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1472c5eff17ae2947a28ee2a9941647e
+      internalID: 882045872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_30
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d16244fbeeac34d85b5098bf4324b3
+      internalID: -2108223908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_31
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40476e098945916459f4b8b47bad8af2
+      internalID: -1308137438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_32
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4192
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bb0d9592f5bc24582e457f868817b0
+      internalID: -1215132328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79c97a19f3e9f64e98a17d49af100de
+      internalID: 1856855439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_34
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb18e190cdd8cad4293a566a3b951d7a
+      internalID: 1655234963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_35
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfba072c29bb500468dcaa656f0585e6
+      internalID: -974156811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_36
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1893d7016d13d124ab73f701ab439f63
+      internalID: 1434064347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_37
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be35e53f4e1bfd540905f3fcf708780e
+      internalID: -191885972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_38
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b768a55df52a8459456db6dce37968
+      internalID: -225191915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_39
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddee5d214bbe2408d11c9cdc816ce1
+      internalID: -197110684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_40
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a76a41918f2dd94e8690913d1ce7c84
+      internalID: 1821045919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_41
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d6ec7db83ab347aae25a4a757453c
+      internalID: -1354031409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_42
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f4a3bf378bcd54898614ae1f0de74f
+      internalID: 1923977315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_43
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 3668
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3316ac9b828b44429fac90b09435ebc
+      internalID: -566459611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492513b22e949184eaf32637851ecce9
+      internalID: -1276519208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_45
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a33c7f61e6983a418f6aa35866130c2
+      internalID: -1031118610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_46
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ddbea44c1700d498bd5d7c904406c1
+      internalID: 1413087346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_47
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28390632caa90054eac38d087cc28587
+      internalID: -1928089321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_48
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1c6651f0a1e1740bd3b018ba8b6f92
+      internalID: 901941955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_49
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068f1001002d87847a9e94e08a208b6a
+      internalID: 1232977459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_50
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0bef81a4fb6e04991f7c5a8495f9d4
+      internalID: 1125516794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_51
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa550aa7642b7914fb570227242350af
+      internalID: 889434861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_52
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd526f3a4349e42b960a49e0c87a0f
+      internalID: 627233083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_53
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a651aaa54ceaf4394a0d2616e4dacf
+      internalID: -402373916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_54
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 3144
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aef462f7388f14cb207c3fec00e061
+      internalID: -834597441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926bdb8351041443b59871a0092318d
+      internalID: -2140418751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_56
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95e1857c03b31d4492daf8b75061394
+      internalID: 81290237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_57
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac667c3a20a55024baadeaa0175c90df
+      internalID: -1083793634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_58
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb949f2362b810645bc8a454649d93d1
+      internalID: 660820534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_59
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b84527131380a84f999eb88dcec0680
+      internalID: 992270995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_60
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a28c5431113424e9c47bb3fb494945
+      internalID: 2010815145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_61
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59796893e06cbc0449bf8398e36a32f7
+      internalID: -1676037531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_62
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c1bcf6d9bf93b489651b31349cce9f
+      internalID: 1207582788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_63
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87df550786bd254d98c07080dade314
+      internalID: 797843077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_64
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8652ce47953f45b4f1aff4d8a6008
+      internalID: 1965607545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_65
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 2620
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c914b7780a17c7f44ab674f9996a5bae
+      internalID: -508455039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c43743f95ef4d4fb6d8da52cb3f37c
+      internalID: 971647947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_67
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0c33f87f3eb964a9b70da8931bf1f6
+      internalID: -663321570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_68
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6557d303cb62d36449b85a6ad551f0d5
+      internalID: -983693493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_69
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63796da88d31814c83d088d39f6c699
+      internalID: -1820390639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_70
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4e964db64144445b8f2fcce0812da2
+      internalID: 2073152809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_71
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310d2e2a7450f84e96b6c05ab6ec652
+      internalID: 703155670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_72
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5cfdfa15297b749913c808055b9351
+      internalID: -728680144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_73
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e1f7351fcbfb45b3a404092cbb704
+      internalID: 1283330592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_74
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbb2fad90e08f4db0d91aed7230832
+      internalID: -1368489477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_75
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caeef0282447c44ab6e11d0151e3915
+      internalID: -2142462443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_76
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 2096
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5bdcb05b7517d44b57161da13ef72e
+      internalID: -69219668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ce54d275214a44a94999cd14afc8cf
+      internalID: 592019384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_78
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa5f9ad8c6b984f9ab89464c565b5f
+      internalID: 2011145894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_79
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9412b4d391478614a8c1897809ae1eb0
+      internalID: 1179510446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_80
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbd746888a03cf4ebc407a5e6783eef
+      internalID: -1661592989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_81
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56b858bb50a8e458082e02c62ad93b
+      internalID: -1620579508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_82
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efe7779b1d646c44aaebcaba1e209d8
+      internalID: 428722994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_83
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee84075b7d7e89d4c9b68b81d953e8f8
+      internalID: -1352121472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_84
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0083f40d4a21d754aacee86f7f09c75d
+      internalID: 812700945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_85
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6643622321e98e44b3af2e8258031f9
+      internalID: 95780044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_86
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d5d1fefca0c3b48a78d855e9e678eb
+      internalID: -1591003877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_87
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 1572
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e92752b02554ae4982ec2b55458c7d6
+      internalID: 1052012197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08a875202d7884e96de36a8a021f0c
+      internalID: 1362259387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_89
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac403035b7c9384fac7646d9209d1bc
+      internalID: 1143359046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_90
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb76f9d11b8699b4c9bc034151cfa44f
+      internalID: -1078561929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_91
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a30ad1a636464cb2d84fa7523fa7d
+      internalID: 505000203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_92
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48353c400ccc6e44894082628756f00b
+      internalID: 1360801588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_93
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca7ffe66ea66848ab8e21b97630c48
+      internalID: 548262492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_94
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0986cb72707934d8cb7cc2e9ca072e
+      internalID: -915524444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_95
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713c237ed551bf4986acd88846e0b7d
+      internalID: -1261125500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_96
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2df2e0411c3de40b7371e011d12af8
+      internalID: -1590254608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_97
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940ccc491ec47d9458d0cf248c3f12b8
+      internalID: 1292980997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_98
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 1048
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eefbfbd2ca01f4b940576b1e255f71
+      internalID: -338960768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc96329f10b38784a82baad8eaec508f
+      internalID: 1063750654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_100
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1b3b100478b7043866692c6e87ca7b
+      internalID: 652340653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_101
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d68acc856a0ac4aa4d2a9cc69854da
+      internalID: -700199168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_102
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e35d036b228034aa5361f2b323e9a8
+      internalID: -744346201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_103
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb571e3cb8628f740aa23caa027a9563
+      internalID: -585886280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_104
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e60d97e5d627b4184856c2228934c1
+      internalID: 456178237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_105
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0336705be60be4a479a621b56f3f16a4
+      internalID: 1562780843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_106
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5d8b659a78094498da7bd581b136d7
+      internalID: -1426266613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_107
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a0018e1fcf204b921b5493bf44f1a
+      internalID: -104047819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_108
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd397d938c34e004a9d717b22a46d0f6
+      internalID: -1981310561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_109
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 524
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ca04595619824faee23bd9b4be8ea
+      internalID: 415493906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca95d8aec079064c81862573b8162ac
+      internalID: 421323420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_111
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c35204be67e84783fb639c5915813
+      internalID: 7347085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_112
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52f95bd6dc4f4847a25b6b11a8cfdd7
+      internalID: 1248380747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_113
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e15762d9969df40aab12d294f37108
+      internalID: -1880803699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_114
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e6d66edbc60d54b8e7904a7fe201b5
+      internalID: -708397750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_115
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b4563774b9abc41bec5bdb48214ea3
+      internalID: 1624646198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_116
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40740590bc27e042b731418859d8224
+      internalID: 1703956820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_117
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf34c4432640f8409f7dc6f0fcf505d
+      internalID: -1591179856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_118
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc3d335b954e44db76adf8315c6ce4
+      internalID: 2115444485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PupateAnim_119
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 0
+        width: 492
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a8533b168a294d897e44c72407383
+      internalID: -1620148173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PupateAnim_5: 858483391
+      PupateAnim_30: -2108223908
+      PupateAnim_115: 1624646198
+      PupateAnim_35: -974156811
+      PupateAnim_117: -1591179856
+      PupateAnim_2: 167877103
+      PupateAnim_73: 1283330592
+      PupateAnim_65: -508455039
+      PupateAnim_40: 1821045919
+      PupateAnim_100: 652340653
+      PupateAnim_66: 971647947
+      PupateAnim_52: 627233083
+      PupateAnim_34: 1655234963
+      PupateAnim_47: -1928089321
+      PupateAnim_111: 7347085
+      PupateAnim_88: 1362259387
+      PupateAnim_15: 683296690
+      PupateAnim_45: -1031118610
+      PupateAnim_54: -834597441
+      PupateAnim_31: -1308137438
+      PupateAnim_59: 992270995
+      PupateAnim_103: -585886280
+      PupateAnim_112: 1248380747
+      PupateAnim_38: -225191915
+      PupateAnim_67: -663321570
+      PupateAnim_8: -529935515
+      PupateAnim_93: 548262492
+      PupateAnim_98: -338960768
+      PupateAnim_49: 1232977459
+      PupateAnim_22: 1486189190
+      PupateAnim_23: 1989640828
+      PupateAnim_62: 1207582788
+      PupateAnim_86: -1591003877
+      PupateAnim_29: 882045872
+      PupateAnim_95: -1261125500
+      PupateAnim_102: -744346201
+      PupateAnim_74: -1368489477
+      PupateAnim_7: 214878139
+      PupateAnim_101: -700199168
+      PupateAnim_10: 1478453490
+      PupateAnim_41: -1354031409
+      PupateAnim_76: -69219668
+      PupateAnim_24: -436228233
+      PupateAnim_55: -2140418751
+      PupateAnim_75: -2142462443
+      PupateAnim_12: -1339431825
+      PupateAnim_18: 1582280896
+      PupateAnim_77: 592019384
+      PupateAnim_26: -1805840023
+      PupateAnim_119: -1620148173
+      PupateAnim_91: 505000203
+      PupateAnim_14: 2100144156
+      PupateAnim_85: 95780044
+      PupateAnim_33: 1856855439
+      PupateAnim_81: -1620579508
+      PupateAnim_114: -708397750
+      PupateAnim_39: -197110684
+      PupateAnim_43: -566459611
+      PupateAnim_48: 901941955
+      PupateAnim_72: -728680144
+      PupateAnim_0: 1953001371
+      PupateAnim_84: 812700945
+      PupateAnim_4: -1817673756
+      PupateAnim_83: -1352121472
+      PupateAnim_36: 1434064347
+      PupateAnim_89: 1143359046
+      PupateAnim_13: -962330450
+      PupateAnim_110: 421323420
+      PupateAnim_71: 703155670
+      PupateAnim_109: 415493906
+      PupateAnim_118: 2115444485
+      PupateAnim_16: -580641703
+      PupateAnim_19: 590607629
+      PupateAnim_116: 1703956820
+      PupateAnim_3: 336645897
+      PupateAnim_50: 1125516794
+      PupateAnim_58: 660820534
+      PupateAnim_42: 1923977315
+      PupateAnim_61: -1676037531
+      PupateAnim_94: -915524444
+      PupateAnim_44: -1276519208
+      PupateAnim_56: 81290237
+      PupateAnim_96: -1590254608
+      PupateAnim_78: 2011145894
+      PupateAnim_20: 2018895443
+      PupateAnim_1: -1689654454
+      PupateAnim_108: -1981310561
+      PupateAnim_6: -422977165
+      PupateAnim_37: -191885972
+      PupateAnim_11: 66945979
+      PupateAnim_80: -1661592989
+      PupateAnim_60: 2010815145
+      PupateAnim_53: -402373916
+      PupateAnim_105: 1562780843
+      PupateAnim_107: -104047819
+      PupateAnim_106: -1426266613
+      PupateAnim_79: 1179510446
+      PupateAnim_99: 1063750654
+      PupateAnim_27: 808594048
+      PupateAnim_32: -1215132328
+      PupateAnim_113: -1880803699
+      PupateAnim_70: 2073152809
+      PupateAnim_90: -1078561929
+      PupateAnim_51: 889434861
+      PupateAnim_104: 456178237
+      PupateAnim_69: -1820390639
+      PupateAnim_97: 1292980997
+      PupateAnim_17: 2026215178
+      PupateAnim_63: 797843077
+      PupateAnim_68: -983693493
+      PupateAnim_9: 1501820713
+      PupateAnim_25: 575966071
+      PupateAnim_82: 428722994
+      PupateAnim_57: -1083793634
+      PupateAnim_28: -1859968290
+      PupateAnim_21: -1369614646
+      PupateAnim_87: 1052012197
+      PupateAnim_92: 1360801588
+      PupateAnim_64: 1965607545
+      PupateAnim_46: 1413087346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

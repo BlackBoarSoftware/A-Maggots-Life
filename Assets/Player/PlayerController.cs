@@ -139,6 +139,11 @@ public class PlayerController : MonoBehaviour
         transform.Translate(0, 3, 0, Space.World);
         transform.rotation = Quaternion.identity;
     }
+    void OnQuit(InputValue value)
+    {
+        Debug.Log("quitting");
+        Application.Quit();
+    }
 
     //Death
     void OnTriggerEnter2D(Collider2D other)
@@ -179,10 +184,10 @@ public class PlayerController : MonoBehaviour
     }
     void ReloadScene()
     {
-        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
+        SceneManager.LoadScene(0);//for the sake of time these values will stay hardcoded
     }
     void WinScene()
     {
-        SceneManager.LoadScene(2);//for the sake of time these values will stay hardcoded
+        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
     }
 }

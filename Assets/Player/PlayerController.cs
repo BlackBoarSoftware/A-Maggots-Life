@@ -139,6 +139,11 @@ public class PlayerController : MonoBehaviour
         transform.Translate(0, 3, 0, Space.World);
         transform.rotation = Quaternion.identity;
     }
+    void OnQuit(InputValue value)
+    {
+        Debug.Log("quitting");
+        Application.Quit();
+    }
 
     //Death
     void OnTriggerEnter2D(Collider2D other)

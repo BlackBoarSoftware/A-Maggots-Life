@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -12,7 +13,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpForce = 5f;
     [SerializeField] Collider2D feet;
     [SerializeField] Animator animator;
-    AudioSource audioSource;
+    [SerializeField] AudioSource crawlAudio;
+    [SerializeField] AudioSource dodgeAudio;
+    [SerializeField] AudioSource eatAudio;
+    [SerializeField] AudioSource deathAudio;
+    Vector2 ResetPosition;
     bool isDead = false; //for now only used to disable movement
 
     public bool isActive = true;
@@ -30,14 +35,13 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
     {
         if(isDead) 
         {
-            rb.velocity = new Vector2(0,0);
+            rb.velocity = new Vector2(0,rb.velocity.y);
             return;
         }
         //Move the player
@@ -49,6 +53,11 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rawInput.x * moveSpeed, rb.velocity.y);
         }
+        if (Mathf.Abs(rb.velocity.x) < 0.2)
+        {
+            crawlAudio.Stop();
+        }
+        
         /* #region  Flipping Logic*/
         if (rawInput.x > 0 && facingLeft) //if moving right and facing left, flip
         {
@@ -61,7 +70,6 @@ public class PlayerController : MonoBehaviour
         /* #endregion */
 
         animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
-
 
         //Make the player jump
         if (isJumping)
@@ -82,26 +90,41 @@ public class PlayerController : MonoBehaviour
     //Used by the input system 
     void OnMove(InputValue value)
     {
-        if (!isActive) { return; }
-        rawInput = value.Get<Vector2>();
+        if(!isDead)
+        {
+            if(!crawlAudio.isPlaying)
+            {
+                crawlAudio.Play(); 
+            }
+            if (!isActive) { return; }
+            rawInput = value.Get<Vector2>();
+        }
+
     }
+    
 
     //Used by the input system
     void OnJump(InputValue value)
     {
-        if (!isActive) { return; }
-        if (!feet.IsTouchingLayers(LayerMask.GetMask(platformLayer))) { return; }
+        if(!isDead)
+        {
+            if (!isActive) { return; }
+            if (!feet.IsTouchingLayers(LayerMask.GetMask(platformLayer))) { return; }
 
-        isJumping = true;
+            isJumping = true;
+        }
     }
 
     void OnDodge(InputValue value)
     {
-        Debug.Log("dodge");
-        if (!isActive) { return; }
-        isDodging = true;
-        animator.SetBool("isDodging", true);
-        Invoke("EndDodge", dodgeBoostLength);
+        if(!isDead)
+        {
+            Debug.Log("dodge");
+            if (!isActive) { return; }
+            isDodging = true;
+            animator.SetBool("isDodging", true);
+            Invoke("EndDodge", dodgeBoostLength);
+        }
     }
 
     void EndDodge()
@@ -109,22 +132,57 @@ public class PlayerController : MonoBehaviour
         isDodging = false;
         animator.SetBool("isDodging", false);
     }
+    void OnReset()
+    {
+        Debug.Log("reset");
+        ResetPosition = new Vector2(transform.position.x, transform.position.y + 10);
+        transform.Translate(0, 3, 0, Space.World);
+        transform.rotation = Quaternion.identity;
+    }
 
     //Death
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Birb")
         {
-            isDead = true;
-            audioSource.Play();
-            Debug.Log("You got vored");
-            animator.SetBool("isDead", true);
-            Invoke("OnDeathAnimEnd", 2f);
+            Die();
+        }
+        else if(other.tag =="Snack")
+        {
+            eatAudio.Play();
         }
     }
 
+    private void Die()
+    {
+        gameObject.transform.rotation = Quaternion.identity;//ensure the animation plays right side up
+        crawlAudio.Stop();
+        isDead = true;
+        deathAudio.Play();
+        Debug.Log("You got vored");
+        animator.SetBool("isDead", true);
+        Invoke("OnDeathAnimEnd", 1f);
+    }
+
     void OnDeathAnimEnd()
-            {
-                Destroy(gameObject);
-            }
+    {
+        //Destroy(gameObject);
+        Invoke("ReloadScene", 1f);
+    }
+
+    public void WinSequence()
+    {
+        isDead = true; //lol
+        Debug.Log("Won");
+        animator.SetTrigger("Win");
+        Invoke("WinScene", 9.8f);
+    }
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(1);//for the sake of time these values will stay hardcoded
+    }
+    void WinScene()
+    {
+        SceneManager.LoadScene(2);//for the sake of time these values will stay hardcoded
+    }
 }

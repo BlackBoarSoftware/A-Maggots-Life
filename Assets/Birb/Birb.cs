@@ -7,7 +7,7 @@ public class Birb : MonoBehaviour
     Animator myAnim;
     [SerializeField] float waitTime;
     [SerializeField] [Range(0f,1f)] float animationOffset; //used for variation in the timing among enemies.
-    void Start()
+    private void OnEnable() 
     {
         myAnim = GetComponent<Animator>();
         myAnim.SetFloat("WaitTime", 1 / waitTime); //allows us to enter time in seconds for animation length
